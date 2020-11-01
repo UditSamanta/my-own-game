@@ -35,7 +35,8 @@ function preload()
   bulletImage = loadImage("Bullet.png");
   pineapple = loadAnimation("Pineapple1/f1.gif", "Pineapple1/f2.gif", "Pineapple1/f3.gif", "Pineapple1/f4.gif", "Pineapple1/f5.gif");
   BackMusic = loadSound("BackMusic.mp3");
-  getBackground();
+bg = loadImage("Bg5.jpg")
+//  getBackground();
 }
 
 function setup() {
